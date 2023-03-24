@@ -1,8 +1,8 @@
 {
-  "name": "@sdevs.org/screen-sizr",
-  "version": "1.0.0",
+  "name": "screen-sizr",
+  "version": "1.1.0-patch.1",
   "description": "This package is a simple screen size detector for NodeJS. You can get the screensize on your Frontend app with ease. We dont guarantee that this package will work in the Backend.",
-  "main": "./src/index.js",
+  "main": "./src/index.ts",
   "types": "./src/index.d.ts",
   "scripts": {
     "test": "ts-node --transpile-only ./examples/index.spec.ts",
