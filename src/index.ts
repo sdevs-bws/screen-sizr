@@ -1,6 +1,6 @@
-const ScreenSizr = require('./lib/ScreenSizr');
+import ScreenSizr from './lib/ScreenSizr';
 
-module.exports = {
+export default {
   getScreenSize: ScreenSizr.getScreenSize,
   getScreenSizeAsync: ScreenSizr.getScreenSizeAsync,
 };
