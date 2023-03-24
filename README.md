@@ -207,6 +207,7 @@ ScreenSizr.getScreenSizeAsync().then(screensize => {
 ```
 </details>
 
+<div style="margin-top: 200px;" />
 
 ### License.
 
