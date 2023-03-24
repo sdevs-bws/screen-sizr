@@ -1,0 +1,1 @@
+export { ScreenSizr } from './lib/ScreenSizr';

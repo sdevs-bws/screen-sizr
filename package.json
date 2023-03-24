@@ -1,0 +1,43 @@
+{
+  "name": "@sdevs/screen-sizr",
+  "version": "1.0.0",
+  "description": "This package is a simple screen size detector for NodeJS. You can get the screensize on your Frontend app with ease. We dont guarantee that this package will work in the Backend.",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "test": "ts-node --transpile-only ./examples/index.spec.ts",
+    "build": "tsc && npm run copy:files",
+    "copy:files": "cpx \"README.md\" \"dist\""
+  },
+  "keywords": [
+    "nodejs",
+    "screen",
+    "sizr",
+    "screen-sizr",
+    "screen size",
+    "screen size detector",
+    "frontend",
+    "sdevs"
+  ],
+  "authors": [
+    {
+      "name": "JanjyTapYT",
+      "email": "janjytapyt@sdevs.org"
+    },
+    {
+      "name": "Stoneclane Development",
+      "email": "contact@sdevs.org"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "web",
+    "url": "https://github.com/Stoneclane-Development/screen-sizr",
+    "homepage": "https://sdevs.org"
+  },
+  "devDependencies": {
+    "@types/cron": "^2.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
