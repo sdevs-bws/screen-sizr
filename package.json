@@ -1,6 +1,6 @@
 {
   "name": "screen-sizr",
-  "version": "1.5.6",
+  "version": "1.5.8",
   "description": "This package is a simple screen size detector for NodeJS. You can get the screensize on your Frontend app with ease. We dont guarantee that this package will work in the Backend.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
