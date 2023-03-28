@@ -4,6 +4,10 @@ interface ScreenSize {
 }
 
 function getScreenSize(): ScreenSize {
+  if (typeof window === 'undefined') {
+    return { width: 0, height: 0 };
+  }
+
   const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
   const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
   return { width, height };
