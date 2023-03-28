@@ -1,1 +1,8 @@
-export { default as ScreenSizr, getScreenSizeAsync, getScreenSize } from './lib/ScreenSizr';
+import { getScreenSize, getScreenSizeAsync } from './lib/ScreenSizr';
+
+const ScreenSizr = {
+  getScreenSize,
+  getScreenSizeAsync,
+};
+
+export default ScreenSizr;
