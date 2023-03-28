@@ -31,12 +31,26 @@ yarn add screen-sizr
 ```js
 import ScreenSizr from 'screen-sizr';
 ```
+or
+```js
+import { getScreenSize } from 'screen-sizr';
+```
+or 
+```js
+import { getScreenSizeAsync } from 'screen-sizr';
+```
 
-#### Getting the screensize.
+#### Getting the screensize (normal).
 ```js
 import ScreenSizr from 'screen-sizr';
 
 const screensize = ScreenSizr.getScreenSize();
+```
+or 
+```js
+import { getScreenSize } from 'screen-sizr';
+
+const screensize = getScreenSize();
 ```
 
 #### Getting the screensize (async).
@@ -44,8 +58,12 @@ const screensize = ScreenSizr.getScreenSize();
 import ScreenSizr from 'screen-sizr';
 
 const screensize = await ScreenSizr.getScreenSizeAsync();
+```
+or 
+```js
+import { getScreenSizeAsync } from 'screen-sizr';
 
-console.log(screensize.width, screensize.height);
+const screensize = await getScreenSizeAsync();
 ```
 
 #### Getting the screensize (async / promise).
@@ -56,25 +74,27 @@ ScreenSizr.getScreenSizeAsync().then(screensize => {
     console.log(screensize.width, screensize.height);
 });
 ```
+or 
+```js
+import { getScreenSizeAsync } from 'screen-sizr';
+
+getScreenSizeAsync().then(screensize => {
+    console.log(screensize.width, screensize.height);
+});
+```
 
 #### Getting the screensize (async / await).
 ```js
 import ScreenSizr from 'screen-sizr';
 
 const screensize = await ScreenSizr.getScreenSizeAsync();
-
-console.log(screensize.width, screensize.height);
 ```
-
-#### Getting the screensize (async / promise / then).
+or 
 ```js
-import ScreenSizr from 'screen-sizr';
+import { getScreenSizeAsync } from 'screen-sizr';
 
-ScreenSizr.getScreenSizeAsync().then(screensize => {
-    console.log(screensize.width, screensize.height);
-});
+const screensize = await getScreenSizeAsync();
 ```
-
 
 ### Examples.
 

@@ -1,6 +1,1 @@
-import ScreenSizr from './lib/ScreenSizr';
-
-export default {
-  getScreenSize: ScreenSizr.getScreenSize,
-  getScreenSizeAsync: ScreenSizr.getScreenSizeAsync,
-};
+export { default as ScreenSizr, getScreenSizeAsync, getScreenSize } from './lib/ScreenSizr';
