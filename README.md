@@ -16,12 +16,12 @@ This package is a simple package that allows you to track the screensize / get t
 
 #### NPM
 ```bash
-npm i screen-sizr
+npm i @sdevs/screen-sizr
 ```
 
 #### Yarn
 ```bash
-yarn add screen-sizr
+yarn add @sdevs/screen-sizr
 ```
 
 
@@ -29,26 +29,26 @@ yarn add screen-sizr
 
 #### Importing.
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 ```
 
 #### Getting the screensize (normal).
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 
 const screensize = ScreenSizr.getScreenSize();
 ```
 
 #### Getting the screensize (async).
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 
 const screensize = await ScreenSizr.getScreenSizeAsync();
 ```
 
 #### Getting the screensize (async / promise).
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 
 ScreenSizr.getScreenSizeAsync().then(screensize => {
     console.log(screensize.width, screensize.height);
@@ -57,7 +57,7 @@ ScreenSizr.getScreenSizeAsync().then(screensize => {
 
 #### Getting the screensize (async / await).
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 
 const screensize = await ScreenSizr.getScreenSizeAsync();
 ```
@@ -66,7 +66,7 @@ const screensize = await ScreenSizr.getScreenSizeAsync();
 
 #### Example.
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 
 const screensize = ScreenSizr.getScreenSize();
 
@@ -75,7 +75,7 @@ console.log(screensize.width, screensize.height);
 
 #### Example (async).
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 
 const screensize = await ScreenSizr.getScreenSizeAsync();
 
@@ -84,7 +84,7 @@ console.log(screensize.width, screensize.height);
 
 #### Example (async / promise).
 ```js
-import ScreenSizr from 'screen-sizr';
+import ScreenSizr from '@sdevs/screen-sizr';
 
 ScreenSizr.getScreenSizeAsync().then(screensize => {
     console.log(screensize.width, screensize.height);
