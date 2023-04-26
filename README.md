@@ -1,6 +1,6 @@
-[![NPM](https://nodei.co/npm/screen-sizr.png)](\[https:/nodei.co/npm/screen-sizr) 
+[![NPM](https://nodei.co/npm/@sdevs/screen-sizr.png)](\[https:/nodei.co/npm/@sdevs/screen-sizr) 
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7dd9288acdc94dacaa11ad80f36a9bd3)](https://www.codacy.com/gh/JanjyTapYT/screen-sizr/dashboard?utm\_source=github.com\&utm\_medium=referral\&utm\_content=JanjyTapYT/screen-sizr\&utm\_campaign=Badge\_Grade) [![Downloads](https://img.shields.io/npm/dt/screen-sizr.svg?color=3884FF)](https://www.npmjs.com/package/screen-sizr) [![Version](https://img.shields.io/npm/v/screen-sizr.svg?color=3884FF\&label=version)](https://www.npmjs.com/package/screen-sizr) [![install size](https://packagephobia.com/badge?p=screen-sizr)](https://packagephobia.com/result?p=screen-sizr) ![node](https://img.shields.io/node/v/screen-sizr)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7dd9288acdc94dacaa11ad80f36a9bd3)](https://www.codacy.com/gh/@sdevs/screen-sizr/dashboard?utm\_source=github.com\&utm\_medium=referral\&utm\_content=@sdevs/screen-sizr\&utm\_campaign=Badge\_Grade) [![Downloads](https://img.shields.io/npm/dt/screen-sizr.svg?color=3884FF)](https://www.npmjs.com/package/@sdevs/screen-sizr) [![Version](https://img.shields.io/npm/v/@sdevs/screen-sizr.svg?color=3884FF\&label=version)](https://www.npmjs.com/package/@sdevs/screen-sizr) [![install size](https://packagephobia.com/badge?p=@sdevs/screen-sizr)](https://packagephobia.com/result?p=@sdevs/screen-sizr) ![node](https://img.shields.io/node/v/@sdevs/screen-sizr)
 
 # Basic Information.
 
