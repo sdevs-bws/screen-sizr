@@ -131,5 +131,5 @@ If you have any issues, please open an issue on our [GitHub Repository](https://
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <div align="center" style="font-size: 20px; font-weight: bold;">
-  <sub>Developed with ❤️ by <a href="https://sdevs.org">Stoneclane Development</a></sub>
+  <sub>Developed with ❤️ by <a href="https://sdevs.org">SDEVS</a></sub>
 </div>
